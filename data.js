@@ -64,11 +64,51 @@ console.log(noises)
 // Step 6 - A Collection of Animals //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
+var animals = [];
+
+animals.push(animal)
+
+var duck = {
+  species: 'duck',
+  name: 'Jerome',
+  noises: ['quack', 'honk', 'sneeze', 'whoosh']
+};
+
+animals.push(duck);
+
+var cat = {
+  species: 'lion',
+  name: 'Leon',
+  noises: ['roar', 'scratch', 'chomp']
+};
+
+animals.push(cat)
+
+var dinosaur = {
+  species: 't.rex',
+  name: 'tiny',
+  noises: ['roar', 'growl', 'hiss']
+};
+
+animals.push(dinosaur)
+
+console.log(animals);
+console.log(animals.length)
 
 
 //////////////////////////////////////////////////////////////////////
 // Step 7 - Making Friends ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+
+// I decided to go with an array because they can be easily indexed and manipulated.
+
+var friends = [];
+
+function getRandom(animals){
+  return Math.floor(Math.random() * animals.length)
+  
+}      
+
 
 
 
