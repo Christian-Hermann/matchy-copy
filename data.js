@@ -104,8 +104,8 @@ console.log(animals.length)
 
 var friends = [];
 
-function getRandom(array){
-  return Math.floor(Math.random() * array.length)
+function getRandom(animals){
+  return Math.floor(Math.random() * animals.length)
   
 }      
 var randomAnimal = animals[getRandom(animals)];
