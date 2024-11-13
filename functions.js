@@ -63,7 +63,7 @@ function add(animals, animal){
     }
 
     animals.push(animal);
-    
+
 }
 
 
